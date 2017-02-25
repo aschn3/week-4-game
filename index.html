@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>CrystalsCollector Game</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.8/semantic.min.css">
+		<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.8/semantic.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		
+	</head>
+	<body>
+		<h1>Crystals Collector!</h1>
+		<div class"ui tall stacked segment" id="panel">
+			<p>You will be given a random number at the start of the game.</p>
+			<p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<p>You win the game by matching your total score to the renadom number, you lose the game if your total score goes above the random number.</p>
+			<p>The value of each crystal is hidden from you until you click on it.
+			Each time the game starts, the game will change the values of each crystal.</p>
+			
+			
+		</div>
+		
+		<h1 class="totalscore">Total Score: 0</h1>
+		<h1 class="win"> Wins: 0</h1>
+		<h1 class="lose"> Lose: 0</h1>
+		<h1 class="result">Result: 0</h1>
+		
+		<section class="crystals">
+			
+			<div class="crystal blue">
+				<p>Crystal 1</p>
+				
+			</div>
+			<div class="crystal red">
+				<p>Crystal 2</p>
+				
+			</div>
+			<div class="crystal yellow">
+				<p>Crystal 3</p>
+				
+			</div>
+			<div class="crystal green">
+				<p>Crystal 4</p>
+			</div>
+		</section>
+		<script type="text/javascript" src="./assets/javasrcipt/game.js"></script>
+	</body>
+</html>
